@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Aplica a personalização para navegadores WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 7px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor de fundo da barra */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(
+    119,
+    116,
+    116,
+    0.6
+  ); /* Cor do "polegar" da barra de rolagem */
+  border-radius: 10px; /* Bordas arredondadas do polegar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor ao passar o mouse */
+}
+
+/* Remove as setas (para navegadores que suportam) */
+::-webkit-scrollbar-button {
+  display: none;
+}

@@ -1,0 +1,152 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1vw;
+  height: 95px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(to bottom, #0066cc, #005eb8, #007bff, #006b99);
+}
+
+.spaceNavBar {
+  margin-top: 95px;
+}
+
+.logoPrincipal {
+  width: auto;
+  height: 95%;
+  border-radius: 0;
+  position: relative;
+  top: 2.5%;
+  right: 1.4vw;
+}
+
+.buttons {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+/* Media Queries */
+
+@media (max-width: 798px) {
+  .buttons {
+    font-size: 23px;
+    margin-right: 2vw;
+  }
+  .btnNavBar {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttons {
+    font-size: 2vh;
+  }
+}
+
+.toogleMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000; /* Para garantir que o menu esteja acima dos outros elementos */
+}
+
+.menu-toggle .bar {
+  width: 50px;
+  height: 8px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.3s;
+  position: relative;
+  right: 1vw;
+}
+
+.menu-toggle .bar.open:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-toggle .bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle .bar.open:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.buttons.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: #4f4f4f; /* Azul claro com 50% de opacidade */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Specific media query for iPads */
+@media (min-width: 820px) and (max-width: 1050px) and (min-height: 1100px) and (max-height: 1400px) {
+  .main-menu-h1 {
+    font-size: 2.6vh; /* Adjust this value to reduce font size */
+  }
+  .buttom-div {
+    margin-top: 1.5vh;
+  }
+  .buttons {
+    display: none; /* Esconde o menu padrão em telas pequenas */
+    gap: 0.5vw;
+  }
+
+  .buttons.active {
+    display: flex; /* Mostra o menu quando o botão hamburguer é clicado */
+  }
+
+  .menu-toggle {
+    display: flex; /* Mostra o botão hamburguer em telas pequenas */
+  }
+}
+
+@media (max-width: 820px) {
+  .buttons {
+    display: none; /* Esconde o menu padrão em telas pequenas */
+    gap: 0.5vw;
+  }
+
+  .buttons.active {
+    display: flex; /* Mostra o menu quando o botão hamburguer é clicado */
+  }
+
+  .menu-toggle {
+    display: flex; /* Mostra o botão hamburguer em telas pequenas */
+  }
+  .btnNavBar {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu-toggle .bar {
+    width: 35px;
+    height: 5px;
+  }
+}
+
+@media (max-height: 600px) {
+  .menu-toggle .bar {
+    width: 35px;
+    height: 4px;
+  }
+}

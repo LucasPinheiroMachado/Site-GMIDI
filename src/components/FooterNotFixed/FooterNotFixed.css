@@ -1,0 +1,18 @@
+.footerNotFixed {
+    width: 100vw;
+    background: linear-gradient(to bottom, #0066cc, #005eb8, #007bff, #006b99);
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-size: 14px;
+    z-index: 1000; /* Garante que o rodapé esteja acima de outros elementos se necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 480px) {
+    .footerNotFixed {
+      font-size: 11px;
+    }
+  }

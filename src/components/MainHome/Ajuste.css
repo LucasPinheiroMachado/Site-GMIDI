@@ -1,0 +1,440 @@
+/* @media (max-width: 760px) {
+  .MainHome.chorme-browser {
+    justify-content: flex-start;
+    height: auto;
+  }
+}
+
+@media (max-width: 760px) and (min-height: 1500px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 450px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1500px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 435px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1475px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 427.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1450px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 420px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1425px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 415px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1400px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 410px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1375px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 397.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1350px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 385px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1325px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 372.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1300px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 360px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1275px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 342.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1250px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 325px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1225px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 302.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1200px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 290px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1175px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 275px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1150px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 260px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1125px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 247.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1100px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 235px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1075px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 225px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1050px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 215px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1025px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 200px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 1000px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 170px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 975px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 160px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 950px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 150px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 935px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 143.75px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 925px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 137.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 915px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 131.25px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 900px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 125px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 885px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 118.75px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 875px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 112.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 865px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 106.25px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 850px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 835px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 92.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 825px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 85px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 815px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 77.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 800px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 70px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 785px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 65px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 775px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 60px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 765px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 55px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 750px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 50px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 735px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 42.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 725px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 35px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 715px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 27.5px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 700px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 690px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 17px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 680px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 50px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 665px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 45px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 650px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 640px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 34px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 630px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 25px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 620px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 610px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 15px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 600px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 35px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 575px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 560px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 25px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 550px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 50px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 535px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 45px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 525px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 515px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 500px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 25px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 475px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 760px) and (max-height: 475px) {
+  .MainHome.chorme-browser {
+    position: relative;
+    top: 15px;
+  }
+} */

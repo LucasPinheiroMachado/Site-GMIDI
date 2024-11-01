@@ -1,0 +1,33 @@
+.start {
+  height: calc(var(--vh, 1vh) * 100 - 155px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.start h1 {
+  font-size: 3.5em;
+  font-family: Helvetica;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.start button {
+  background: linear-gradient(to bottom, #0066cc, #005eb8, #007bff, #006b99);
+  color: #fff;
+  padding: 0 45px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+@media (max-width: 500px) {
+  .start h1 {
+    font-size: 3em;
+  }
+}

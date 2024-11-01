@@ -1,0 +1,168 @@
+.create_post p {
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
+.create_post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100 - 155.001px);
+}
+
+.create_post h1 {
+  color: #fff;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black,
+    1px -1px 1px black;
+  margin-bottom: 30px;
+}
+
+.create_post p {
+  color: #aaa;
+}
+
+.create_post input::placeholder,
+.create_post textarea::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create_post input {
+  height: 30px;
+}
+
+.create_post textarea {
+  height: 150px;
+}
+
+.create_post textarea::-webkit-scrollbar {
+  width: 0px;
+}
+
+.create_post input:focus,
+.create_post textarea:focus {
+  outline: none;
+}
+
+.create_post a,
+.create_post nav button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  transition: 0.4s;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create_post a:hover,
+.create_post nav button:hover {
+  color: #bbb;
+}
+
+/* form styles */
+.create_post form {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.create_post label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.create_post label span {
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black,
+    1px -1px 1px black;
+  color: #fff;
+}
+
+.create_post input,
+.create_post textarea {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.8em 0em;
+  background-color: transparent;
+  width: 80vw;
+  color: #fff;
+}
+
+.create_post textarea {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.create_post input::placeholder,
+.create_post textarea::placeholder {
+  color: #aaa;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #0066cc, #005eb8, #007bff, #006b99);
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+.btn.btn-dark {
+  background-color: #000;
+  border-radius: 0;
+}
+
+.btn.btn-outline {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+}
+
+.btn:hover {
+  background-color: #0f730c;
+  color: #fff;
+}
+
+.btn.btn-outline:hover {
+  background-color: #000;
+}
+
+.btn.btn-danger:hover {
+  background-color: #dc3545;
+}
+
+.create_post button[disabled] {
+  background-color: #aaa;
+}
+
+.container .error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-height: 780px) {
+  .create_post h1 {
+    font-size: 25px;
+  }
+}

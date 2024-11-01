@@ -1,0 +1,150 @@
+.MainGames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100 - 155.001px);
+}
+
+.MainGames h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 4px 4px 4px #005eb8;
+  text-align: center;
+}
+
+.linksGames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.btn-flink {
+  width: 60vw;
+  padding: 22px 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to bottom, #0066cc, #005eb8, #007bff, #006b99);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 3px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black,
+    1px -1px 1px black;
+}
+
+.btn-flink:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+
+.btn-flink:active {
+  background-color: #2a5a8b;
+  transform: translateY(1px);
+}
+
+@media (max-width: 820px) {
+  .btn-flink {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 720px) {
+  .MainGames h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 620px) {
+  .MainGames h1 {
+    font-size: 40px;
+  }
+  .btn-flink {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .MainGames h1 {
+    font-size: 35px;
+  }
+}
+
+.break {
+  display: inline; /* Para que o span se comporte como um elemento em linha */
+}
+
+@media (max-width: 480px) {
+  .break {
+    display: block; /* Faz o span se comportar como um bloco, forçando a quebra de linha */
+  }
+  .MainGames h1 {
+    font-size: 42px;
+  }
+  .btn-flink {
+    width: 85vw;
+    padding: 20px 0px;
+  }
+}
+
+@media (max-height: 680px) {
+  .MainGames h1 {
+    font-size: 42px;
+  }
+  .btn-flink {
+    width: 85vw;
+    padding: 15px 0px;
+    margin-bottom: 12px;
+  }
+  .linksGames {
+    margin-top: 40px;
+  }
+}
+
+@media (max-height: 600px) {
+  .MainGames h1 {
+    font-size: 35px;
+  }
+  .btn-flink {
+    width: 85vw;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+  }
+  .linksGames {
+    margin-top: 30px;
+  }
+}
+
+@media (max-height: 550px) {
+  .MainGames h1 {
+    font-size: 30px;
+  }
+  .btn-flink {
+    width: 85vw;
+    padding: 6px 0px;
+    margin-bottom: 12px;
+  }
+  .linksGames {
+    margin-top: 20px;
+  }
+}
+
+@media (max-height: 480px) {
+  .MainGames h1 {
+    font-size: 30px;
+  }
+  .btn-flink {
+    width: 85vw;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+  }
+  .linksGames {
+    margin-top: 15px;
+  }
+}

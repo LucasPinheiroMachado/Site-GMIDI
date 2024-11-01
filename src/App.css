@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(to right, #1a1a1a, #2a2a2a);
+}
+
+/* AllProducts.css ou um arquivo CSS global */
+.no-scroll {
+  overflow: hidden; /* Impede o scroll na página */
+}

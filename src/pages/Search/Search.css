@@ -1,0 +1,75 @@
+.search_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: calc(var(--vh, 1vh) * 100 - 155.001px);
+}
+
+.search_container h1 {
+  color: #fff;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black,
+    1px -1px 1px black;
+}
+
+.post-list {
+  display: flex; /* Alinha os posts lado a lado */
+  flex-wrap: wrap; /* Permite que os posts quebrem de linha se não houver espaço */
+  justify-content: center;
+}
+
+.post-list h1 {
+  margin-top: 25px;
+}
+
+.post-list p {
+  color: #fff;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black,
+    1px -1px 1px black;
+}
+
+.searchQuestion {
+  margin-top: 25px;
+}
+
+.searchResult {
+  margin-bottom: 15px;
+}
+
+.search_container p {
+  margin-bottom: 30px;
+}
+
+.notFoundPost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 700px) {
+  .searchQuestion,
+  .searchResult {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 550px) {
+  .searchQuestion,
+  .searchResult {
+    font-size: 17.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .post-list p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .searchQuestion,
+  .searchResult {
+    font-size: 15px;
+  }
+}
